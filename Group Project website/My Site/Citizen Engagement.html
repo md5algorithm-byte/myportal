@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen Engagement</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    h2 {
+      position: relative;
+      animation: slideIn 0.8s ease-out;
+    }
+    @keyframes slideIn {
+      from { left: -100px; opacity: 0; }
+      to { left: 0; opacity: 1; }
+    }
+    ul li {
+      transition: transform 0.3s ease;
+    }
+    ul li:hover {
+      transform: scale(1.05);
+      background-color: #eef;
+    }
+    a {
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #0077cc;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Citizen Engagement</h1>
+    <nav>
+      <ul>
+       <li><a href="Municipal.html">Home</a></li>
+        <li><a href="smart Services.html">Smart Services</a></li>
+        <li><a href="Citizen engagement.html">Citizen Engagement</a></li>
+        <li><a href="governance.html">Council & Governance</a></li>
+        <li><a href="Pages.html">Help & Accessibility</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>AI Chatbot Assistant</h2>
+      <p>Ask questions, get help, and interact with your municipality using our smart chatbot.</p>
+      <input type="text" placeholder="Type your question...">
+      <button onclick="alert('Chatbot response coming soon!')">Send</button>
+    </section>
+
+    <section>
+      <h2>Community Poll</h2>
+      <p>What service should be prioritized next?</p>
+      <form>
+        <input type="radio" name="poll" value="wifi"> Public Wi-Fi<br>
+        <input type="radio" name="poll" value="roads"> Road Repairs<br>
+        <input type="radio" name="poll" value="parks"> Park Upgrades<br>
+        <button type="submit">Vote</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Municipality | Powered by HCI & HCInt</p>
+  </footer>
+</body>
+</html>

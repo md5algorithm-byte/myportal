@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help & Accessibility</title>
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    h2 {
+      position: relative;
+      animation: slideIn 0.8s ease-out;
+    }
+    @keyframes slideIn {
+      from { left: -100px; opacity: 0; }
+      to { left: 0; opacity: 1; }
+    }
+    ul li {
+      transition: transform 0.3s ease;
+    }
+    ul li:hover {
+      transform: scale(1.05);
+      background-color: #eef;
+    }
+    a {
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #0077cc;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Help & Accessibility</h1>
+    <nav>
+      <ul>
+        <li><a href="Municipal.html">Home</a></li>
+        <li><a href="smart Services.html">Smart Services</a></li>
+        <li><a href="Citizen engagement.html">Citizen Engagement</a></li>
+        <li><a href="governance.html">Council & Governance</a></li>
+        <li><a href="Pages.html">Help & Accessibility</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Accessibility Tools</h2>
+      <button onclick="alert('Font size increased')">🔍 Increase Font Size</button>
+      <button onclick="alert('High contrast mode activated')">🌙 High Contrast</button>
+    </section>
+
+    <section>
+      <h2>Multimodal Help</h2>
+      <p>Choose your preferred help format:</p>
+      <ul>
+        <li><a href="#">📖 Text Guide</a></li>
+        <li><a href="#">🎧 Audio Instructions</a></li>
+        <li><a href="#">🎥 Video Tutorial</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Municipality | Powered by HCI & HCInt</p>
+  </footer>
+</body>
+</html>

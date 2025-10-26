@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Municipal Portal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    h2 {
+      position: relative;
+      animation: slideIn 0.8s ease-out;
+    }
+    @keyframes slideIn {
+      from { left: -100px; opacity: 0; }
+      to { left: 0; opacity: 1; }
+    }
+    ul li {
+      transition: transform 0.3s ease;
+    }
+    ul li:hover {
+      transform: scale(1.05);
+      background-color: #eef;
+    }
+    a {
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #0077cc;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Smart Municipal Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="smart Services.html">Smart Services</a></li>
+        <li><a href="Citizen engagement.html">Citizen Engagement</a></li>
+        <li><a href="governance.html">Council & Governance</a></li>
+        <li><a href="Pages.html">Help & Accessibility</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to the Future of Municipal Services</h2>
+      <p>This portal integrates 4IR technologies to deliver smart, inclusive, and adaptive services to all citizens.</p>
+      <input type="text" placeholder="Search services..." aria-label="Search">
+      <button onclick="alert('Voice search coming soon!')">🎤 Voice Search</button>
+    </section>
+
+    <section>
+      <h3>Quick Access</h3>
+      <div class="tiles">
+        <a href="services.html">💡 Pay Utilities</a>
+        <a href="services.html">🚧 Report Issues</a>
+        <a href="engagement.html">💬 Chatbot</a>
+        <a href="governance.html">📅 Council Calendar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Municipality | Powered by HCI & HCInt</p>
+  </footer>
+</body>
+</html>
